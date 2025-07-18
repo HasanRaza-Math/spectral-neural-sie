@@ -1,11 +1,20 @@
-torch==2.2.1
-numpy==1.26.4
-+ scipy==1.13.0  # For advanced math (integrals, special functions)
-+ pytest==8.1.1  # For writing and running tests
-+ pytest-cov==4.1.0  # Test coverage reporting
-+ ipython==8.12.0  # Better interactive Python console
-+ black==23.12.0  # Automatic code formatting
-+ matplotlib==3.8.2  # For plotting results
-+ seaborn==0.13.0  # Better statistical visuals
-+ sphinx==7.2.6  # For generating docs
-+ myst-parser==2.0.0  # Markdown support in docs
+# CORE COMPUTATION
+torch==2.2.1          # Main deep learning framework
+numpy==1.26.4         # Numerical operations
+scipy==1.13.0         # Advanced math functions
+
+# TESTING & QUALITY
+pytest==8.1.1         # Test framework
+pytest-cov==4.1.0     # Test coverage reports
+
+# DEVELOPMENT TOOLS
+ipython==8.12.0       # Enhanced Python REPL
+black==23.12.0        # Code formatter
+
+# VISUALIZATION (Optional)
+matplotlib==3.8.2     # Basic plotting
+seaborn==0.13.0       # Statistical visuals
+
+# DOCUMENTATION (Optional)
+sphinx==7.2.6         # Documentation generator
+myst-parser==2.0.0    # Markdown support
